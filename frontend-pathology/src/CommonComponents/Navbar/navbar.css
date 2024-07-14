@@ -1,0 +1,102 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #3ac6bc;
+
+}
+
+.imgLogoNavbar{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+
+.rightSideNavbar{
+    display: flex;
+    height: 100%;
+   
+}
+
+.linkstRightNavbar{
+    margin: 0px 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color:linear-gradient(#3ac6bc 0 0) var(--p,0) / var(--p,0) no-repeat;
+    transition: 0.8s, background-position 0s;
+    border-radius: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.linkstRightNavbar:hover{
+    background-color: rgb(42, 124, 124);
+    --p: 100%;
+    color:#000000;
+}
+
+/*-----------------------------------------*/
+.addTestModal{
+    position: absolute;
+    top:10%;
+    right: 1%;
+    background-color: whitesmoke;
+    box-sizing: 0 0 5px #999;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 380px;
+    
+}
+
+.inputAddTestModal
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputAddTestLabel{
+    font-size: 15px;
+}
+
+ .inputAddTestbox
+ {
+   border: 1px solid  rgb(12, 187, 187);
+   border-radius: 3px;
+}
+
+.inputAddTestbox:focus{
+    outline: none;
+}
+
+.createAddTest{
+    width: 70px;
+    height: 20px;
+    border:1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    background-color:linear-gradient(#3ac6bc 0 0) var(--p,0) / var(--p,0) no-repeat;
+    transition: 0.8s, background-position 0s;
+    
+}
+
+.createAddTest:hover
+{
+    background-color: rgb(12,187,187);
+    --p: 100%;
+    color:#000000;
+}
+
+

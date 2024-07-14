@@ -1,0 +1,122 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalCard {
+    width: 55%;
+    height: 70%;
+    background-color: white;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.modalTitleBox {
+    width: 95%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(12, 187, 187);
+}
+
+.xButton {
+    font-size: 32px;
+    color: rgb(12, 187, 187);
+    font-weight: 600px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.xButton:hover {
+    background-color: grey;
+}
+
+.modalBody {
+    width: 95%;
+}
+
+.inputRowModal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inputLabel {
+    font-size: 13px;
+    color: rgb(12, 187, 187);
+    font-weight: 500;
+}
+
+.inputModal {
+    border: 1px solid rgb(12, 187, 187);
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.inputModal::placeholder {
+    color: rgb(12, 187, 187);
+    font-weight: 500;
+
+}
+
+.inputModal:focus {
+    outline: none;
+}
+
+.buttonDivModal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.submitModal {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(12, 187, 187);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+}
+
+.submitModal:hover {
+
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+    color: #000000;
+
+}
